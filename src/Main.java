@@ -42,8 +42,22 @@ public class Main {
         byte aS=27;
         byte eA=30;
         short paperAll=480;
-        float partPaper=paperAll/(lP+aS+eA);
+        int partPaper=paperAll/(lP+aS+eA);
         System.out.println("На каждого ученика рассчитано "+partPaper+" листов бумаги");
+
+        //Задание 4
+        byte startProiz=16;
+        byte deltaTime=2;
+        int proizv=startProiz/deltaTime;
+        int but=proizv*20;
+        System.out.println("За 20 минут машина произвела "+but+" бутылок");
+        but=proizv*24*60;
+        System.out.println("За сутки машина произвела "+but+" бутылок");
+        but=but*3;
+        System.out.println("За 3 дня машина произвела "+but+" бутылок");
+        but=but*10;
+        System.out.println("За месяц машина произвела "+but+" бутылок");
+
 
 
 
