@@ -37,6 +37,14 @@ public class Main {
         short f=27897;
         byte g=67;
 
+        //Задание 3
+        byte lP=23;
+        byte aS=27;
+        byte eA=30;
+        short paperAll=480;
+        float partPaper=paperAll/(lP+aS+eA);
+        System.out.println("На каждого ученика рассчитано "+partPaper+" листов бумаги");
+
 
 
 
