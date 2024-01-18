@@ -67,6 +67,18 @@ public class Main {
         int kor=kolKlass*rashKor;
         System.out.println("В школе, где "+kolKlass+" классов, нужно "+bel+
                 " банок белой краски и "+kor+" банок коричневой краски");
+        //6 задание
+        byte kBan=5;
+        byte plBan=80;
+        short kMol=200;
+        byte plMol=105;
+        byte kMor=2;
+        byte plMor=100;
+        byte kYay=4;
+        byte plYay=70;
+        int vesGr=kBan*plBan+kMol*plMol/100+kMor*plMor+kYay*plYay;
+        float vesKg=vesGr/1000;
+        System.out.println("Спортсмен съедает "+ vesGr + " грамм ("+vesKg+" килограмм) в день");
 
 
 
