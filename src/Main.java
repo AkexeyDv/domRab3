@@ -79,6 +79,17 @@ public class Main {
         int vesGr=kBan*plBan+kMol*plMol/100+kMor*plMor+kYay*plYay;
         float vesKg=vesGr/1000;
         System.out.println("Спортсмен съедает "+ vesGr + " грамм ("+vesKg+" килограмм) в день");
+        //7 задание
+        short lGr=250;
+        short rGr=500;
+        byte deltaM=7;
+        int lTime=7*1000/250;
+        int rTime=7*1000/500;
+        int midTime=(lTime+rTime)/2;
+        System.out.println("Спортсмену потребуется "+lTime+" дней при сбросе 250 гр/день");
+        System.out.println("Спортсмену потребуется "+rTime+" дней при сбросе 500 гр/день");
+        System.out.println("Спортсмену потребуется в среднем "+midTime+" дней");
+
 
 
 
