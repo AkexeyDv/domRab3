@@ -17,14 +17,14 @@ public class Main {
         System.out.println("Значение переменной sh с типом short равно "+sh);
         System.out.println("Значение переменной i с типом int равно "+i);
         System.out.println("Значение переменной l с типом long равно "+l);
-        System.out.println(" ");
+
         System.out.println("Вещественные переменные:");
         System.out.println("Значение переменной fl с типом float равно "+fl);
         System.out.println("Значение переменной dbl с типом double равно "+dbl);
-        System.out.println(" ");
+
         System.out.println("Строковые переменные:");
         System.out.println("Значение переменной chr с типом char равно "+chr);
-        System.out.println(" ");
+
         System.out.println("Логические переменные:");
         System.out.println("Значение переменной bln с типом boolean равно "+bln);
 
