@@ -3,7 +3,7 @@ public class Main {
 
     public static void main(String[] args)
     {
-
+        //Задание 1
         byte b=125;
         short sh=-32000;
         int i=1258425;
@@ -27,6 +27,17 @@ public class Main {
 
         System.out.println("Логические переменные:");
         System.out.println("Значение переменной bln с типом boolean равно "+bln);
+
+        // Задание 2
+        float a=27.12f;
+        long b1=987678965549L;
+        float c=2.786f;
+        short d=569;
+        short e=-159;
+        short f=27897;
+        byte g=67;
+
+
 
 
     }
