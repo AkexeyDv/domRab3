@@ -89,6 +89,22 @@ public class Main {
         System.out.println("Спортсмену потребуется "+lTime+" дней при сбросе 250 гр/день");
         System.out.println("Спортсмену потребуется "+rTime+" дней при сбросе 500 гр/день");
         System.out.println("Спортсмену потребуется в среднем "+midTime+" дней");
+        //8 задание
+        int Mery=67760;
+        int Deny=83690;
+        int Krys=76230;
+        int fMery=Mery+Mery/100*10;
+        int fDeny=Deny+Deny/100*10;
+        int fKrys=Krys+Krys/100*10;
+        int rMery=(fMery-Mery)*12;
+        int rDeny=(fDeny-Deny)*12;
+        int rKrys=(fKrys-Krys)*12;
+        System.out.println("Маша теперь получает "+fMery+" рублей. Это в год на "+rMery+
+                " рублей больше.");
+        System.out.println("Денис теперь получает "+fDeny+" рублей. Это в год на "+rDeny+
+                " рублей больше.");
+        System.out.println("Кристина теперь получает "+fKrys+" рублей. Это в год на "+rKrys+
+                " рублей больше.");
 
 
 
