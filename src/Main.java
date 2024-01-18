@@ -65,7 +65,8 @@ public class Main {
         int kolKlass=krasAll/(rashBel+rashKor);
         int bel=kolKlass*rashBel;
         int kor=kolKlass*rashKor;
-        
+        System.out.println("В школе, где "+kolKlass+" классов, нужно "+bel+
+                " банок белой краски и "+kor+" банок коричневой краски");
 
 
 
