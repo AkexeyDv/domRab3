@@ -58,6 +58,15 @@ public class Main {
         but=but*10;
         System.out.println("За месяц машина произвела "+but+" бутылок");
 
+        //5 задание
+        byte krasAll=120;
+        byte rashBel=2;
+        byte rashKor=4;
+        int kolKlass=krasAll/(rashBel+rashKor);
+        int bel=kolKlass*rashBel;
+        int kor=kolKlass*rashKor;
+        
+
 
 
 
